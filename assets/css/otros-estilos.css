@@ -1,0 +1,28 @@
+/* aplicamos primero un estilo global */
+body{
+    /* color de fondo de toda la pagina porque está dentro del body */
+    background-color: rgb(0, 0, 0);
+
+    /*fuente principal del sitio  */
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* centra el contenido del sitio */
+    text-align: center;
+}
+
+section{
+/* fondo blanco para resaltar la seccion */
+background-color: mediumseagreen;
+
+/* creamos un margen entre section y los elementos que lo rodean */
+margin: 30px;
+
+/* espacio interior entre el borde de section y el contenido de este */
+padding: 50px;
+
+/* creamos un borde fino solido y de color */
+border: 5px white;
+
+/* esquina del borde redondeadas */
+border-radius: 200px;
+}
