@@ -5,20 +5,30 @@ body{
 }
 
 header{
-    background-color:  rgb(0, 128, 220)
+    background-color:  rgb(0, 128, 220);
     color: white;
-    padding: 20px;
-    text-align: center;
-    text-decoration: wavy;
+    padding: 15px 30px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
 }
 
-nav{
-    background-color: rgb(61, 45, 0);
-    padding: 10px;
+.header-container {
     display: flex;
-    justify-content: center;
-    gap: 12px;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-left h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.header-nav {
+    display: flex;
+    gap: 15px;
+    align-items: center;
 }
 
 /* estilos de los enlaces que esten dentro de un nav */
@@ -48,16 +58,39 @@ nav a{
 -justify-content:center centrar el grupo
 -gap: separacion entre tarjetas*/
 
+.hero {
+    background: linear-gradient(135deg, #0080dc 0%, #004f99 100%);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.hero h2 {
+    margin: 0;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    margin: 0;
+    font-size: 18px;
+    opacity: 0.95;
+}
+
 .contenedor{
     display:flex;
     justify-content: center;
     gap: 30px;
-    padding: 40px;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
 }
 
 .card {
     background-color: white;
-    padding: 20px;
+    padding: 25px;
     /* fijamos el ancho para que no se desordene */
     width: 220px;
     text-align: center;
@@ -66,16 +99,41 @@ nav a{
     box-shadow: 0px 2px 8px gray;
     display: flex;
     flex-direction: column;
+    transition: all 0.3s ease;
+    border: 1px solid #f0f0f0;
 }
 
 .card img {
     margin-bottom: 15px;
+    border-radius: 8px;
 }
 
+.card h2 {
+    margin: 10px 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.card p {
+    margin: 8px 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.card h3 {
+    color: #0080dc;
+    margin: 10px 0;
+}
+
+.card h5 {
+    margin: 5px 0;
+    color: #d9534f;
+}
 
 .card:hover{
     /* agrandamos ligeramente al pasar el cursr sobre la tarjeta */
-    transform: scale(1.10);
+    transform: scale(1.08);
+    box-shadow: 0px 4px 16px rgba(0, 128, 220, 0.3);
 }
 
 button{
@@ -97,5 +155,49 @@ imagen-circular {
  width: 150px !important;  /* Forzamos a que el ancho sea igual al alto */
     height: 150px !important; /* Usamos !important por si el HTML interfiere */
     border-radius: 50%;
-    object-fit: cover;       
+    object-fit: cover;
+}
+
+/* Footer Horizontal */
+footer {
+    background-color: rgb(61, 45, 0);
+    color: white;
+    margin-top: 40px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    text-align: center;
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-section h4 {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+}
+
+.footer-section p {
+    margin: 0;
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid rgba(255,255,255,0.2);
+    font-size: 12px;
+    opacity: 0.8;
+}
 }

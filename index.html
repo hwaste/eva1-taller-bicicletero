@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Servicio técnico Bicicleteroo</title>
+    <title>Servicio técnico Bicicletero</title>
     
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/styles.css">
@@ -11,47 +11,52 @@
 <body>
 
     <header>
-        <h1>Servicio técnico Bicicletero</h1>
-        <br>
+        <div class="header-container">
+            <div class="header-left">
+                <h1>🚴 Taller de Bicicletas</h1>
+            </div>
+            <nav class="header-nav">
+                <a href="#servicios" class="btn btn-primary">Servicios</a>
+                <a href="#promociones" class="btn btn-primary">Promociones</a>
+                <a href="#contacto" class="btn btn-primary">Contacto</a>
+                <a href="https://www.google.com/maps" class="btn btn-primary">📍 Ubicación</a>
+            </nav>
+        </div>
     </header>
 
-    <!-- barra de navegacion -->
-
-    <nav>
-        <a href="" class="btn btn-primary">Servicios</a>
-        <a href="" class="btn btn-primary">Promociones</a>
-        <a href="" class="btn btn-primary">Contacto</a>
-        <a href="https://ww.google.cl" class="btn btn-primary">mostrar ubicación</a>
-    </nav>
-    <br>
+    <!-- Banner Hero -->
+    <section class="hero">
+        <h2>Taller Bicicletero</h2>
+        <p>Servicios profesionales con garantía</p>
+    </section>
 <main>
     <section class="contenedor">
         <!-- tarjeta 1 Producto individual -->
          <article class="card">
-            <img src="assets/img/cafe-torta.png" alt="aquí debería haber una imagen" width="180" height="150">
-            <h2>tarjeta1</h2>
-            <p>descripcion tarjeta 1</p>
-            <h3>$3.500 CLP</h3>
+            <img src="assets/img-bici/frenos.jpg" alt="aquí debería haber una imagen" width="180" height="180">
+            <h2>Regulación de frenos</h2>
+            <p>"Precio varía si es hidraulico o de piolas"</p>
+            <h3>desde $10.000 CLP</h3>
 
             <button>Encargar</button>
          </article>
     
         <!-- tarjeta 2 Producto individual -->
          <article class="card">
-            <img src="assets/img/cafesolo.png" alt="aquí debería haber una imagen" width="180" height="150">
-            <h2>tarjeta2</h2>
-            <p>descripcion tarjeta 2</p>
-            <h3>$2.500 CLP</h3>
+            <img src="assets/img-bici/cambios.jpg" alt="aquí debería haber una imagen" width="180" height="180">
+            <h2>Regulacion de cambios</h2>
+            <p>Regulación delantera y trasera</p>
+            <h3>$15.000 CLP</h3>
 
             <button>Encargar</button>
          </article>
    
         <!-- tarjeta 3 Producto individual -->
          <article class="card">
-            <img src="assets/img/cafeparados.png" alt="aquí debería haber una imagen" width="180" height="150">
-            <h2>tarjeta3</h2>
-            <p>descripcion tarjeta 3</p>
-            <h3>$4.990 CLP</h3> <h5>(oferta)</h5>
+            <img src="assets/img-bici/suspensiones.jpg" alt="aquí debería haber una imagen" width="180" height="180">
+            <h2>Ajuste de suspensión</h2>
+            <p>Regulación de la suspensión delantera y trasera</p>
+            <h3>desde $30.000 CLP</h3> <h5>(oferta)</h5>
 
             <button>Encargar</button>
          </article>
@@ -59,7 +64,23 @@
 </main>
 
 <footer>
-    Tienda virtual ®todos los derechos reservados
+    <div class="footer-container">
+        <div class="footer-section">
+            <h4>Servicio técnico para tu bicicleta</h4> <!--propuesto por ia luego de solicitarle un diseño horizontal
+            <p>Taller Bicicletero</p>
+        </div>
+        <div class="footer-section">
+            <h4>Horario</h4>
+            <p>Lunes a Viernes: 9:00 - 18:00</p>
+        </div>
+        <div class="footer-section">
+            <h4>Contacto</h4>
+            <p>📞 +56 9 XXXX XXXX</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        Tienda virtual ® Todos los derechos reservados 2024
+    </div>
 </footer>
 
 </body>
