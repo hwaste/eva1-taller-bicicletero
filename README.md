@@ -7,4 +7,4 @@ La problemática abordada con la pagina web, es apoyar a un taller de bicicletas
 
 Para el proyecto se utilizará "visual studio code" y para programar la pagina web se utiliza lenguaje de programacion HTML con apoyo de algunos estilos CSS para dar un aspecto mas amigable al usuario.
 
-En algunas secciones se utiliza ia copilot para modificar algunos aspectos visuales de la web.
+En algunas secciones se utiliza ia copilot para modificar algunos aspectos visuales y funcionales de la web, comentados debidamente donde hubo intervención de IA copilot.
