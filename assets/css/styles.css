@@ -29,6 +29,31 @@ header{
     display: flex;
     gap: 15px;
     align-items: center;
+    flex-wrap: wrap;
+}
+
+/* /* Responsive para pantallas móviles * esta propuesta se la pedí a ia copilot */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        gap: 15px;
+        align-items: stretch;
+    }
+    
+    .header-left h1 {
+        font-size: 22px;
+        text-align: center;
+    }
+    
+    .header-nav {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .header-nav a {
+        width: 100%;
+        text-align: center;
+    }
 }
 
 /* estilos de los enlaces que esten dentro de un nav */
