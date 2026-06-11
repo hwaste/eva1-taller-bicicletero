@@ -24,13 +24,17 @@
         </div>
     </header>
 
-    <!-- Banner Hero     el banner lo propuso la ia luego de consultar alineamiento horizonal-->
+    <!-- Banner Hero     el banner lo propuso la ia luego de consultar alineamiento horizonal, 
+     luego lo usé para agregar y separar las diferentes cecciones-->
+
     <section class="hero">
         <h2>Taller Bicicletero</h2>
         <p>Servicios profesionales con garantía</p>
     </section>
 <main>
-<!-- seccion 1 de servicios-->
+
+    <!-- seccion 1 de servicios-->
+
     <section class="hero">
         <h2>Servicios</h2>
         <p>Contactanos para ver disponibilidad de repuestos</p>
@@ -76,38 +80,59 @@
     <section class="contenedor">
         <!-- tarjeta 1 Producto individual -->
          <article class="card">
-            <img src="assets/img-bici/frenos.jpg" alt="aquí debería haber una imagen" width="180" height="180">
-            <h2>Regulación de frenos</h2>
-            <p>"Precio varía si es hidraulico o de piolas"</p>
-            <h3>desde $10.000 CLP</h3>
+            <img src="assets/img-bici/manubrio.jpg" alt="aquí debería haber una imagen" width="180" height="180">
+            <h2>Manubrios</h2>
+            <p>"Variedad marcas y modelos"</p>
+            <h3>desde $39.990 CLP</h3>
 
             <button>Encargar</button>
          </article>
     
         <!-- tarjeta 2 Producto individual -->
          <article class="card">
-            <img src="assets/img-bici/cambios.jpg" alt="aquí debería haber una imagen" width="180" height="180">
-            <h2>Regulacion de cambios</h2>
-            <p>Regulación delantera y trasera</p>
-            <h3>$15.000 CLP</h3>
+            <img src="assets/img-bici/punos.jpg" alt="aquí debería haber una imagen" width="180" height="180">
+            <h2>Puños</h2>
+            <p>Variedad marcas y modelos</p>
+            <h3>desde $8.990 CLP</h3>
 
             <button>Encargar</button>
          </article>
    
         <!-- tarjeta 3 Producto individual -->
          <article class="card">
-            <img src="assets/img-bici/suspensiones.jpg" alt="aquí debería haber una imagen" width="180" height="180">
-            <h2>Ajuste de suspensión</h2>
-            <p>Regulación de la suspensión delantera y trasera</p>
-            <h3>desde $30.000 CLP</h3> <h5>(oferta)</h5>
+            <img src="assets/img-bici/disco.jpg" alt="aquí debería haber una imagen" width="180" height="180">
+            <h2>Discos de freno</h2>
+            <p>Simples, center-lock</p>
+            <h3>desde $19.990 CLP</h3>
 
             <button>Encargar</button>
          </article>
     </section>
     
+
 </main>
 
-<footer> 
+<!-- formulario de contacto visual, sin funciones. (esta seccion se solicitó a ia copilot) -->
+
+<section id="contacto" class="contact">
+    <div class="contact-container">
+        <h2>Contáctanos</h2>
+        <form id="contactForm" class="contact-form" action="#" method="post">
+            <label for="name">Nombre</label>
+            <input id="name" name="name" type="text" placeholder="Tu nombre" required>
+
+            <label for="email">Correo</label>
+            <input id="email" name="email" type="email" placeholder="tu@correo.com" required>
+
+            <label for="message">Mensaje</label>
+            <textarea id="message" name="message" rows="5" placeholder="Escribe tu mensaje..." required></textarea>
+
+            <button type="submit" disabled>Enviar</button>
+        </form>
+    </div>
+</section>
+
+<footer>
     <div class="footer-container">
         <div class="footer-section">
             <h4>Servicio técnico para tu bicicleta</h4> 
@@ -119,7 +144,7 @@
         </div>
         <div class="footer-section">
             <h4>Contacto</h4>
-            <p>📞 +56 9 XXXX XXXX</p>
+            <p>📞 +56 9 9999 9999</p>
         </div>
     </div>
     <div class="footer-bottom">
